@@ -1,0 +1,82 @@
+.contenu_a_propos {
+    margin: 10% 0;
+}
+
+.bloc-a-propos {
+  display: flex;
+  gap: 15px;
+}
+
+.bloc-a-propos img:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: rgba(139, 134, 134, 0.4) 0px 30px 90px;
+}
+
+.a_propos-photo2 {
+  margin-top: 12%;
+}
+
+.a_propos-text {
+  max-width: fit-content;
+}
+
+h1 {
+  font-family: Anton;
+  font-size: 45px;
+  color: #f9ef23;
+  letter-spacing: 1px;
+}
+
+.a-propos-text p {
+  font-size: 20px;
+}
+
+.a-propos-text a:hover {
+    text-decoration: underline;
+    color: #f9ef23;
+}
+
+
+
+@media only screen and (width < 768px) {
+
+  .bloc-a-propos {
+    flex-direction: column;
+  }
+
+  .bloc-a-propos img {
+
+    height: 330px;
+    width: 230px;
+    
+}
+
+
+.a_propos-photo2 {
+  margin-top: 2% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a_propos-photo1, .a_propos-photo2 {
+ padding: 10px;
+}
+
+.a-propos-text h1 {
+  font-size: 35px !important;
+  text-align: center;
+}
+
+.a-propos-text {
+  text-align: center;
+}
+
+.a-propos-text p {
+  font-size: 18px;
+}
+
+.a-propos-text a {
+  text-decoration: underline;
+}
+
+  }

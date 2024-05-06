@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #141414;
+    color: #fff;
+    font-family: poppins;
+}
+
+header, main, footer {
+    margin: 50px 44px 0;
+}
+
+
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+
+  li:nth-child(-n + 3):hover {
+    background-color: #F9EF23;
+    color: #141414;
+    transition: 0.4s ease-in-out;
+  }
+  
+ .row {
+  display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex: 50%;
+    }
+    
+
+  .logo img:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+  }
+
+  .logo h4 {
+  font-family: Anton;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 40%;
+  }
+
+
+  .btn {
+    background-color: #F9EF23;
+    color: #141414;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #222020;
+    color: #FFF8EA;
+    transition: 0.3s ease-in-out;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  img{
+    object-fit: cover;
+}
+
+  /* Landing */
+.landing-bloc, .cards {
+    display: flex;
+    gap: 10px;
+}
+
+.landing-text button {
+    margin: auto;
+}
+
+  .landing-bloc h1 {
+  
+    font-family: Anton;
+    font-size: 50px;
+    letter-spacing: 1px;
+    max-width: 80%;
+  }
+
+  .important {
+    color: #F9EF23;
+  }
+
+  .landing-photo img:hover {
+    transition: 0.4s ease-in-out;
+    box-shadow: rgba(139, 134, 134, 0.4) 0px 30px 90px;
+  }
+  
+
+/* Locaux */
+
+.cards-container {
+  margin-top: 70px;
+}
+
+.cards-container h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: Anton;
+  font-size: 45px;
+  color: #F9EF23;
+  letter-spacing: 1px;
+}
+
+.cards {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards h5 {
+  background-color: #FFF8EA;
+  color: black;
+  width: 250px;
+  margin-top: 0;
+  padding: 20px 20px 50px 20px;
+}
+
+.cards p {
+  text-align: center;
+}
+
+.cards p:hover {
+  background-color: #222020;
+}
+
+.cards img {
+  width: fit-content;
+}
+
+.cards div:hover {
+  transform: translateY(-1.5em);
+  transition: 0.2s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+/* Footer */
+
+footer{
+  background-color: #F9EF23;
+  color: #141414;
+}
+
+.footer-bloc {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.footer-info h4 {
+  font-size: 23px;
+  font-family: Anton;
+  font-weight: 550;
+  margin: 0;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-networks a:hover {
+  opacity: 0.5;
+  transform: translateY(-0.5em);
+  transition: 0.4s ease-in-out;
+}
+
+/* Media Queries */
+  
+  @media only screen and (width < 768px) {
+    body {
+      margin: auto;
+    }
+    
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      flex: 100%;
+    }
+    
+    .nav-menu {
+      flex: 100%;
+      padding: 0;
+    }
+
+    .nav-item {
+      margin: 0 4px;
+      font-size: small;
+      width: max-content;
+    }
+
+    .logo h4 {
+
+      font-size: 20px !important;
+
+    }
+
+    .landing-bloc, .cards {
+      flex-direction: column;
+      gap: 90px;
+      align-items: center;
+}
+
+.landing-bloc h1 {
+  max-width: fit-content;
+  font-size: 37px;
+}
+
+.landing-text {
+  text-align: center;
+}
+
+.landing-photo img {
+  width: 265px;
+    height: 215px;
+}
+
+.cards img {
+  width: -webkit-fill-available !important; 
+}
+
+h2 {
+  font-size: 35px !important;
+}
+
+.footer-bloc {
+  flex-direction: column;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 17px !important;
+}
+    }

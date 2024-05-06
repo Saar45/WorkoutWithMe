@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not found - Workout With Me</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+
+    <link rel="icon" href="/images/Logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .error {
+        animation: wiggle 2s linear infinite;
+        font-family: Anton;
+        font-size: 40px;
+        color: #c70039;
+        letter-spacing: 1px;
+        font-style: italic;
+      }
+
+      @keyframes wiggle {
+        0%,
+        7% {
+          transform: rotateZ(0);
+        }
+        15% {
+          transform: rotateZ(-15deg);
+        }
+        20% {
+          transform: rotateZ(10deg);
+        }
+        25% {
+          transform: rotateZ(-10deg);
+        }
+        30% {
+          transform: rotateZ(6deg);
+        }
+        35% {
+          transform: rotateZ(-4deg);
+        }
+        40%,
+        100% {
+          transform: rotateZ(0);
+        }
+      }
+
+      @media only screen and (width <= 480px) {
+        main img {
+          height: 290px;
+          width: 360px;
+        }
+
+        h1 {
+          font-size: 20px !important;
+        }
+
+        .error {
+          font-size: 15px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="row">
+          <div class="logo">
+            <a href="/index.html"
+              ><img
+                class="header-img"
+                src="/images/Logo.png"
+                height="82px"
+                width="82px"
+            /></a>
+            <h4>WORKOUT WITH ME</h4>
+          </div>
+          <ul class="nav-menu hidden">
+            <li class="nav-item">
+              <a href="#avis" class="nav-link">AVIS</a>
+            </li>
+            <li class="nav-item">
+              <a href="/a_propos.html" class="nav-link">À PROPOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn">
+                <a href="#" class="nav-link">SE CONNECTER</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main style="display: flex; flex-direction: column; align-items: center">
+      <img
+        src="/images/en-cours-de developpement.jpg"
+        alt="404"
+        height="390px"
+        width="490px"
+        style="object-fit: contain;"
+      />
+      <br />
+      <span class="error">404 NOT FOUND ⚠ </span>
+      <h1 style="text-align: center">
+        <br />
+        Uh Oh! Le site est toujours en développement, revenez dans trés bientôt!
+      </h1>
+      <a href="/index.html" style="font-size: 15px; text-decoration: underline">
+        Accueil
+      </a>
+    </main>
+
+    <footer>
+      <div class="footer-bloc">
+        <div class="footer-info">
+          <i><h4>ADRESSE POSTALE</h4></i>
+          <p>95 Avenue Gallieni, Saint-Denis, 93170</p>
+        </div>
+        <div class="footer-info">
+          <i><h4>ADRESSE MAIL</h4></i>
+          <p>contact-wwm@.gmail.com</p>
+        </div>
+        <div class="footer-info">
+          <i><h4>NUMÉRO DE TÉLÉPHONE</h4></i>
+          <p>01 43 62 69 69
+          </p>
+        </div>
+      </div>
+
+      <div class="social-networks">
+        <a target="_blank" href="https://www.facebook.com"
+          ><img
+            src="/images/Facebook-logo.png"
+            alt="Facebook Logo"
+            height="30px"
+            width="30px"
+        /></a>
+        <a target="_blank" href="https://www.x.com"
+          ><img
+            src="/images/Twitter-logo.png"
+            alt="Twitter Logo"
+            height="30px"
+            width="30px"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com"
+          ><img
+            src="/images/Instagram-logo.png"
+            alt="Instagram Logo"
+            height="30px"
+            width="30px"
+        /></a>
+        <a target="_blank" href="https://www.linkedin.com"
+          ><img
+            src="/images/LinkedIn-logo.png"
+            alt="LinkedIn Logo"
+            height="30px"
+            width="30px"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
